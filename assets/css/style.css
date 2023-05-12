@@ -165,6 +165,26 @@ button {
   }
 }
 
+/* ====== Dark Mode ====== */
+body.dark {
+  --body-color: hsl(0, 0%, 13%);
+  --text-color: hsl(354, 78%, 60%);
+  --card-color: #090B0C;
+  --title-color : #EEEEEE;
+  --bg-color: #02111B;
+}
+
+body.dark button {
+  --bg-color: #EEEEEE;
+}
+
+body.dark .btn--menu,
+body.dark .btn--theme,
+body.dark .btn--cart,
+body.dark .btn--close {
+  color: #EEEEEE;
+}
+
 /* ====== Header ====== */
 .header {
   position: fixed;

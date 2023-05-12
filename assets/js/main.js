@@ -3,6 +3,7 @@ import loader from './components/loader.js'
 import products from './components/products.js'
 import showCart from './components/showCart.js'
 import showMenu from './components/showMenu.js'
+import darkMode from './components/darkMode.js'
 import getProducts from './helpers/getProducts.js'
 
 /* UI Element */
@@ -15,6 +16,9 @@ showMenu()
 
 /* Mostrar Carrito */
 showCart()
+
+/* Dark Mode */
+darkMode()
 
 /* End UI Element */
 
